@@ -3,7 +3,7 @@ rebuilding my CV need some upgrades
 
 ## Live link
 
--
+-https://danielmhawes.github.io/daniel-hawes-cv/index.html
 
 ## Apps used 
 ```
@@ -35,3 +35,5 @@ languages:
 - Created live link
 
 ```
+##Live link
+- https://danielmhawes.github.io/daniel-hawes-cv/index.html
