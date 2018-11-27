@@ -150,7 +150,8 @@ body {
   }
   .section2{
       padding-left: 10%;
-      height: 70%;
+      height: 90%;
+      color: white;
   }
 
   .education{
@@ -169,10 +170,33 @@ body {
   }
   .btn-skills{
       text-align: center;
-      background-color: #007bff;
-      padding: 2%;
+      border: white solid 2px;
+      padding: 0.5%;
       top:0px;
-      margin-left: 15px; 
+      margin-left: 40%;
+  }
+
+  .btn-skills:hover{
+    background-color: white;
+    color: black;
+    padding: 1%;
+  }
+
+  .section3 {
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .skills-and-abilities{
+    display: grid;
+    grid-template-columns: 25% 25% ;
+    grid-gap: 20px;
+    margin-left: 35%;
+  }
+  .icons{
+    height: 200px;
+    width: 200px;
+    border: black 2px solid;
   }
   
   
