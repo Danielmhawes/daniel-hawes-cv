@@ -203,6 +203,19 @@ body {
     width: 200px;
     border: black 2px solid;
   }
+
+  .section4{
+    text-align: center;
+    
+  }
+  .projects{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .john{
+    width: 20%;
+    height: 40px;
+  }
   
   
   

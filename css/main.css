@@ -38,7 +38,8 @@ li {
   padding-top: 2%;
   font-size: 20px;
   letter-spacing: 3px;
-  width: 33%; }
+  width: 33%;
+ }
 
 li:hover {
   border-top: solid 2px;
@@ -161,6 +162,11 @@ a:hover {
   text-align: center;
   padding-top: 4rem; }
 
+.gla:hover {
+  transition: 0.8s ease-in-out;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.349); }
+
 .skills-and-abilities {
   display: grid;
   grid-template-columns: 25% 25%;
@@ -171,5 +177,16 @@ a:hover {
   height: 200px;
   width: 200px;
   border: black 2px solid; }
+
+.section4 {
+  text-align: center; }
+
+.projects {
+  display: grid;
+  grid-template-columns: auto auto; }
+
+.john {
+  width: 20%;
+  height: 40px; }
 
 /*# sourceMappingURL=main.css.map */
