@@ -25,6 +25,18 @@
   grid-template-columns: 25% 25% 25%;
   grid-gap: 100px; }
 
+.grid-container-4 {
+  display: grid;
+  grid-template-columns: 25% 25%;
+  grid-gap: 20px;
+  margin-left: 35%; }
+
+.grid-container-5 {
+  margin-left: 20%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 40% 40%; }
+
 body {
   font-family: 'Source Sans Pro'; }
 
@@ -75,41 +87,6 @@ a:hover {
   color: white;
   border-left: 2px; }
 
-.btnme {
-  background-color: #007bff;
-  padding: 2%;
-  margin-left: 15px; }
-
-.btnme:hover {
-  padding: 4%;
-  transition: 0.8s ease-in-out; }
-
-.btn-edu {
-  background-color: #007bff;
-  padding: 1%;
-  top: 0px;
-  margin-left: 0.938em; }
-
-.btn-edu:hover {
-  padding: 2%;
-  transition: 0.8s ease-in-out; }
-
-.btn-skills {
-  text-align: center;
-  border: white solid 2px;
-  padding: 0.5%;
-  top: 0px;
-  margin-left: 40%; }
-
-.btn-skills:hover {
-  background-color: white;
-  color: black;
-  padding: 1%; }
-
-/* a:hover{
-  background-color: white;
-  color: black;
-} */
 .name {
   padding: 30px;
   margin-bottom: 20px; }
@@ -134,7 +111,7 @@ a:hover {
 
 .section2 {
   padding-left: 10%;
-  height: 90%;
+  height: 800px;
   color: white; }
 
 .heading {
@@ -151,28 +128,27 @@ a:hover {
   transition: 0.8s ease-in-out;
   transition: box-shadow .3s;
   border-radius: 10px;
-  border: 1px solid #ccc; }
+  border: 1px solid #ccc;
+  width: 90px;
+  height: 90px; }
 
 .gla:hover {
-  box-shadow: 0 0 11px #212529; }
-
-.grid-container-4 {
-  display: grid;
-  grid-template-columns: 25% 25%;
-  grid-gap: 20px;
-  margin-left: 35%; }
+  box-shadow: 0 0 11px white; }
 
 .icons {
   height: 200px;
   width: 200px;
   border: black 2px solid; }
 
+.project {
+  padding-top: 30px; }
+
 .section4 {
   text-align: center;
-  height: 26.500em;
+  height: 28.500em;
   color: white; }
 
-.projects {
+.grid-container-5 {
   margin-left: 20%;
   display: grid;
   grid-gap: 30px;
@@ -182,9 +158,19 @@ a:hover {
   width: 100%;
   height: 250px; }
 
+.john:hover {
+  box-shadow: 0 0 11px white;
+  background-color: rgba(0, 0, 0, 0.322);
+  padding: 1%; }
+
 .code {
   width: 100%;
   height: 250px; }
+
+.code:hover {
+  box-shadow: 0 0 11px white;
+  background-color: rgba(0, 0, 0, 0.322);
+  padding: 1%; }
 
 .contact {
   text-align: center; }
@@ -240,41 +226,73 @@ footer {
 .tooltip:hover .tooltiptext {
   visibility: visible; }
 
-@media only screen and (max-width: 700px) {
-  nav {
-    background-color: #007bff;
-    width: 100%;
-    height: 70px;
+.btnme {
+  background-color: #007bff;
+  padding: 2%;
+  margin-left: 15px; }
+
+.btnme:hover {
+  padding: 4%;
+  transition: 0.8s ease-in-out; }
+
+.btn-edu {
+  background-color: #007bff;
+  padding: 1%;
+  top: 0px;
+  margin-left: 0.938em; }
+
+.btn-edu:hover {
+  padding: 2%;
+  transition: 0.8s ease-in-out; }
+
+.btn-skills {
+  text-align: center;
+  border: white solid 2px;
+  padding-top: 20px;
+  padding: 0.5%;
+  top: 20px;
+  margin-left: 40%; }
+
+.btn-skills:hover {
+  background-color: white;
+  color: black;
+  padding: 1%; }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(85, 85, 85, 0.658);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px; }
+
+#myBtn:hover {
+  background-color: rgba(0, 0, 0, 0.63); }
+
+@media only screen and (max-width: 900px) {
+  .grid-container-1 {
     position: fixed;
-    top: 0;
-    left: 0;
-    transition: top 0.3s; }
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-gap: 16px;
+    background-color: #007bff;
+    height: 70px;
+    width: 100%; }
 
-  ul {
-    list-style-type: none;
-    padding-top: 0.6%; }
-
-  li {
-    display: inline;
-    padding-left: 6%;
-    padding-top: 2%;
-    font-size: 15px;
-    letter-spacing: 3px;
-    width: 33%; }
-
-  li:hover {
-    border-top: solid 2px;
-    border-bottom: solid 2px;
-    color: white; }
-
-  .head {
-    border: 3px solid #007bff;
-    margin-left: 35%;
-    margin-right: 35%;
-    text-align: center;
-    margin-top: 10%;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.493); } }
+  .grid-container-1 > div {
+    margin-left: 11%;
+    padding-top: 7%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 1px; } }
 @media only screen and (max-width: 330px) {
   .head {
     border: 3px solid #007bff;

@@ -1,0 +1,33 @@
+// responsive design
+@media only screen and (max-width: 900px){
+    .grid-container-1{
+        position: fixed;
+        padding-left: 10%;
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+        grid-gap: 16px;
+        background-color: #007bff;
+        height: 70px;
+        width: 100%
+      }
+      .grid-container-1 > div{
+        margin-left: 11%;
+        padding-top: 7%;
+        font-size: 18px;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+      }
+}
+   
+  @media only screen and (max-width: 330px){
+    .head{
+      border: 3px solid #007bff;
+      margin-left: 35%;
+      margin-right: 35%;
+      text-align: center;
+      margin-top: 10%;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.493)
+    }
+  
+  }
