@@ -1,0 +1,32 @@
+.btnme{
+    background-color: #007bff;
+    padding: 2%;
+    margin-left: 15px; 
+  }
+  .btnme:hover{
+    padding: 4%;
+    transition: 0.8s ease-in-out;
+  }
+  .btn-edu{
+    background-color: #007bff;
+    padding: 1%;
+    top:0px;
+    margin-left: 0.938em; 
+  }
+  .btn-edu:hover{
+    padding: 2%;
+    transition: 0.8s ease-in-out;
+  }
+  .btn-skills{
+    text-align: center;
+    border: white solid 2px;
+    padding: 0.5%;
+    top:0px;
+    margin-left: 40%;
+}
+
+.btn-skills:hover{
+  background-color: white;
+  color: black;
+  padding: 1%;
+}

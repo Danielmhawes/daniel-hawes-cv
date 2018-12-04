@@ -15,3 +15,15 @@
     letter-spacing: 3px;
     word-spacing: 5px;
   }
+
+  .grid-container-2{
+    display: grid;
+    grid-template-columns: 20% 40%;
+    grid-gap: 120px;
+  }
+
+  .grid-container-3{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 100px;
+}
