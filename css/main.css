@@ -36,7 +36,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: white; }
 
 *, ::after, ::before {
   box-sizing: border-box; }
@@ -75,7 +75,7 @@ nav div {
   text-align: center;
   margin-top: 10%;
   padding: 1.250em;
-  background-color: rgba(255, 255, 255, 0.493); }
+  background-color: rgba(255, 255, 255, 0.521); }
 
 a {
   color: black;
@@ -171,9 +171,9 @@ a:hover {
 
 footer {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 15% 15% 15% 15% 15%;
-  margin-left: 20%;
+  grid-gap: 10px;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  margin-left: 10%;
   height: 200px;
   padding-top: 35px; }
 
@@ -186,13 +186,13 @@ footer {
   height: 110px; }
 
 .social {
-  width: 50%;
+  width: 30%;
   height: 90px;
   border-radius: 30%;
   transition: 1s ease-in-out; }
 
 .social :hover {
-  background-color: rgba(255, 255, 255, 0.329);
+  background-color: rgba(255, 255, 255, 0.521);
   padding: 2%; }
 
 .copyright {
@@ -209,7 +209,7 @@ footer {
   visibility: hidden;
   width: 120px;
   background-color: black;
-  color: #fff;
+  color: white;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -218,6 +218,26 @@ footer {
   z-index: 1; }
 
 .tooltip:hover .tooltiptext {
+  visibility: visible; }
+
+.tooltips {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; }
+
+.tooltips .tooltiptexts {
+  visibility: hidden;
+  width: 220px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1; }
+
+.tooltips:hover .tooltiptexts {
   visibility: visible; }
 
 .btnme {
