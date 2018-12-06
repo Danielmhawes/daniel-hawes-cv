@@ -112,8 +112,10 @@ nav div{
   // section 2 styling
   .section2{
       padding-left: 10%;
+      padding-right: 5%;
       height: 50.000em;
       color: $borderbottom;
+
   }
 
  
@@ -131,7 +133,18 @@ nav div{
   .section3 {
     text-align: center;
     padding-top: 4rem;
+    padding-left: 20%;
   }
+  #rss{
+    border-right: 2px dotted black;
+    padding-left: 0px; 
+  }
+  #rlabs{
+    border-right: 2px dotted black;
+    padding-left: 0px;
+  }
+  
+
   // gla images
   .gla{
     transition: 0.8s ease-in-out;
