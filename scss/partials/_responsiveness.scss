@@ -1,7 +1,7 @@
 // responsive design
 @media only screen and (max-width: 1150px){
     nav{
-        background-color: #007bff;
+        background-color: $primcolor;
         width: 100%;
         height: 70px;
         position: fixed;
@@ -19,7 +19,7 @@
         
       }
       .head{
-        border: 3px solid #007bff;
+        border: 3px solid $bgcolor;
         margin-left: 30%;
         margin-right: 30%;
         text-align: center;
@@ -49,7 +49,7 @@
         
     }
     .copyright{
-        background-color: #007bff;
+        background-color: $bgcolor;
         height: 30px;
         
         padding-left: 60%;
@@ -57,7 +57,7 @@
 }
 @media only screen and (max-width: 900px){
     nav{
-        background-color: #007bff;
+        background-color: $primcolor;
         width: 100%;
         height: 70px;
         position: fixed;
@@ -85,7 +85,7 @@
         grid-gap: 80px;
       }
       .copyright{
-        background-color: #007bff;
+        background-color: $bgcolor;
         height: 30px;
         padding-left: 60%;
       }
@@ -94,7 +94,7 @@
 
 @media only screen and (max-width: 760px){
     nav{
-        background-color: #007bff;
+        background-color: $primcolor;
         width: 100%;
         height: 70px;
         position: fixed;
@@ -162,7 +162,7 @@
         height: 110px;
       }
       .copyright{
-        background-color: #007bff;
+        background-color: $bgcolor;
         height: 30px;
         padding-left: 60%;
       }
@@ -170,7 +170,7 @@
 }
 @media only screen and (max-width: 650px){
     nav{
-        background-color: #007bff;
+        background-color: $primcolor;
         width: 100%;
         height: 70px;
         position: fixed;
@@ -190,7 +190,7 @@
 
 
     .head{
-        border: 3px solid #007bff;
+        border: 3px solid $bgcolor;
         margin-left: 22%;
         margin-right: 22%;
         text-align: center;
@@ -206,7 +206,7 @@
     .section2{
         padding-left: 10%;
         height: 92.000em;
-        color: white;
+        color: $primcolor;
     }
     .grid-container-3{
         display: grid;
@@ -248,7 +248,7 @@
         transition: 1s ease-in-out;
       }
       .copyright{
-        background-color: #007bff;
+        background-color: $bgcolor;
         height: 30px;
         
         padding-left: 60%;
@@ -287,7 +287,7 @@
    
   @media only screen and (max-width: 545px){
       nav{
-        background-color: #007bff;
+        background-color: $primcolor;
         width: 100%;
         height: 60px;
         position: fixed;
@@ -305,7 +305,7 @@
        
       }
       .head{
-        border: 3px solid #007bff;
+        border: 3px solid $bgcolor;
         margin-left: 10%;
         margin-right: 10%;
         text-align: center;
@@ -374,7 +374,7 @@
         height: 15.625em;
       }
       .copyright{
-        background-color: #007bff;
+        background-color: $bgcolor;
         height: 30px;
         margin-top: 40%;
         padding-left: 40%;
@@ -387,21 +387,18 @@
   }
   @media only screen and (max-width: 380px){
     nav{
-        background-color: #007bff;
+        background-color: $primcolor;
         width: 100%;
-        height: 60px;
-        position: fixed;
-        float: left;
+        height: 70px;
         text-align: center;
-        top: 0;
-        left: 0;
+        
        
       }
       nav div{
+        border-right: 2px solid $grey;
         display: inline;
-        padding-top: 4%;
-        font-size: 12px;
-        
+        font-size: 15px;
+        padding-top: 0px; 
        
       }
       .section1{
@@ -472,7 +469,7 @@
         transition: 1s ease-in-out;
       }
       .copyright{
-        background-color: #007bff;
+        background-color: $bgcolor;
         height: 30px;
         margin-top: 40%;
         padding-left: 20%;

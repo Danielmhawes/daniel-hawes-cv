@@ -1,7 +1,8 @@
 // variables
 
-$lightblue : #007bff;
+$brown : #C0C0C0;
 $white: white;
+$black: black;
 $grey: grey;
 $lightgrey: rgba(255, 255, 255, 0.521);
 // $lightergrey:
@@ -9,7 +10,8 @@ $black: black;
 
 // functional color
 
-$primcolor: $lightblue;
+$primcolor: $white;
+$bgcolor: $brown;
 $textcolor:$white;
 $hovercolor:$grey;
 $backtotopbtn:$lightgrey;
