@@ -167,6 +167,9 @@ nav div{
     border: $borderbottom 2px solid;
   }
 //project section
+  #projects{
+    padding-top: 30px;
+  }
   .project{
     padding-top: 1.000em;
   }
@@ -175,7 +178,7 @@ nav div{
 
   .section4{
     text-align: center;
-    height: 28.500em;
+    height: 30.500em;
     color: $textcolor;
     
   }
@@ -202,6 +205,7 @@ nav div{
   }
   .contact{
     text-align: center;
+    height: 2.000em;
   }
  // the footes base styles start here
   footer{
@@ -231,7 +235,7 @@ nav div{
     padding: 2%;
   }
   .copyright{
-    background-color: $primcolor;
+    background-color: $bgcolor;
     height: 30px;
     padding-left: 80%;
   }

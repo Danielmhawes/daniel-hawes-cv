@@ -14,11 +14,11 @@
 .grid-container-4 {
   display: grid;
   grid-template-columns: 25% 25%;
-  grid-gap: 20px;
+  grid-gap: 50px;
   margin-left: 35%; }
 
 .grid-container-5 {
-  margin-left: 20%;
+  margin-left: 15%;
   display: grid;
   grid-gap: 30px;
   grid-template-columns: 40% 40%; }
@@ -154,12 +154,15 @@ a:hover {
   width: 200px;
   border: black 2px solid; }
 
+#projects {
+  padding-top: 30px; }
+
 .project {
   padding-top: 1.000em; }
 
 .section4 {
   text-align: center;
-  height: 28.500em;
+  height: 30.500em;
   color: white; }
 
 .john {
@@ -181,7 +184,8 @@ a:hover {
   padding: 1%; }
 
 .contact {
-  text-align: center; }
+  text-align: center;
+  height: 2.000em; }
 
 footer {
   display: grid;
@@ -210,7 +214,7 @@ footer {
   padding: 2%; }
 
 .copyright {
-  background-color: white;
+  background-color: #C0C0C0;
   height: 30px;
   padding-left: 80%; }
 
@@ -486,7 +490,7 @@ footer {
 
   .section2 {
     padding-left: 10%;
-    height: 92.000em;
+    height: 95.000em;
     color: white; }
 
   .grid-container-3 {
@@ -574,7 +578,7 @@ footer {
 
   .section2 {
     padding-left: 10%;
-    height: 110.000em;
+    height: 113.000em;
     color: white; }
 
   .grid-container-3 {
