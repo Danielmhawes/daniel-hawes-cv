@@ -1,10 +1,10 @@
 
 //styleing the body for the whole website page
-body {
-    font-family: 'Source Sans Pro';
+
   
-  }
-  body, html {
+  
+  body {
+    font-family: 'Indie Flower', cursive;
     scroll-behavior: smooth;
     width: 100%;
     height: 100%;
@@ -27,6 +27,8 @@ body {
 }
 // navigation styling
 nav{
+
+  font-family: 'EB Garamond', serif;
   background-color:$primcolor;
   width: 100%;
   height: 3.750em;
@@ -48,6 +50,7 @@ nav div{
 
 //the background img 
 .masthead {
+    font-family: 'EB Garamond', serif;
     width: 100%;
     height: 62.500em;
     padding-top: 8rem;
@@ -87,6 +90,10 @@ nav div{
   .work{
     padding-bottom : 1.875em;
   }
+  .gif{
+    padding-bottom: 3%;
+    height: 80px;
+  }
   // img of me in about section
   .imgofme{
     border-radius:50%;
@@ -103,6 +110,7 @@ nav div{
       height: 25.000em;
       text-align: center;
       margin-left: 10%;
+      font-family: 'EB Garamond', serif;
   }
   
   // background colors for the blue
@@ -111,6 +119,7 @@ nav div{
   }
   // section 2 styling
   .section2{
+      font-family: 'EB Garamond', serif;
       padding-left: 10%;
       padding-right: 5%;
       height: 54.000em;
@@ -131,18 +140,19 @@ nav div{
   
 
   .section3 {
+    font-family: 'EB Garamond', serif;
     text-align: center;
     padding-top: 4rem;
-    padding-left: 20%;
+    
   }
-  #rss{
-    border-right: 2px dotted black;
-    padding-left: 0px; 
-  }
-  #rlabs{
-    border-right: 2px dotted black;
-    padding-left: 0px;
-  }
+  // #rss{
+  //   border-right: 2px dotted black;
+  //   padding-left: 0px; 
+  // }
+  // #rlabs{
+  //   border-right: 2px dotted black;
+  //   padding-right: 30px;
+  // }
   
 
   // gla images
@@ -165,6 +175,7 @@ nav div{
     height: 200px;
     width: 200px;
     border: $borderbottom 2px solid;
+    background-color: $backtotopbtn;
   }
 //project section
   #projects{
@@ -177,6 +188,7 @@ nav div{
   
 
   .section4{
+    font-family: 'EB Garamond', serif;
     text-align: center;
     height: 30.500em;
     color: $textcolor;
