@@ -1,7 +1,5 @@
 
 //styleing the body for the whole website page
-
-  
   
   body {
     font-family: 'Indie Flower', cursive;
@@ -10,6 +8,7 @@
     height: 100%;
   
   }
+
   body {
     margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -25,31 +24,33 @@
     box-sizing: border-box;
   
 }
+a:visited {
+  color: black;
+}
 // navigation styling
-nav{
+  nav{
+    font-family: 'EB Garamond', serif;
+    background-color:$primcolor;
+    width: 100%;
+    height: 3.750em;
+    position: fixed;
+    padding-top: 0.5%;
+    top: 0;
+    left: 0;
+    border: $borderbottom 3px solid;
+  }
 
-  font-family: 'EB Garamond', serif;
-  background-color:$primcolor;
-  width: 100%;
-  height: 3.750em;
-  position: fixed;
-  padding-top: 0.5%;
-  top: 0;
-  left: 0;
-  border: $borderbottom 3px solid;
- 
-}
-nav div{
-  display: inline;
-  padding-left: 10%;
-  padding-top: 4%;
-  font-size: 20px;
-  letter-spacing: 3px;
-  width: 33%;
-}
+  nav div{
+    display: inline;
+    padding-left: 10%;
+    padding-top: 4%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    width: 33%;
+  }
 
-//the background img 
-.masthead {
+  //the background img 
+  .masthead {
     font-family: 'EB Garamond', serif;
     width: 100%;
     height: 62.500em;
@@ -76,6 +77,7 @@ nav div{
     text-decoration: none;
     background-color: transparent;
   }
+
   a:hover{
     border-right: 2px;
     color:$hovercolor;
@@ -97,10 +99,8 @@ nav div{
   // img of me in about section
   .imgofme{
     border-radius:50%;
-    
     float: left;
   }
-  
   
   #about{
     padding-top: 3%;
@@ -112,7 +112,10 @@ nav div{
       margin-left: 10%;
       font-family: 'EB Garamond', serif;
   }
-  
+  // paragraph about me styling
+  .para{
+    text-align: justify; 
+  }
   // background colors for the blue
   .bg-primary {
     background-color: $bgcolor !important;
@@ -122,37 +125,30 @@ nav div{
       font-family: 'EB Garamond', serif;
       padding-left: 10%;
       padding-right: 5%;
-      height: 54.000em;
+      height: 70.000em;
       color: $borderbottom;
 
   }
 
- 
-
   .heading{
-      text-align: center;
+    text-align: center;
   }
   
   #education{
-      padding-top: 4%;
-
+    padding-top: 4%;
   }
   
-
   .section3 {
     font-family: 'EB Garamond', serif;
     text-align: center;
     padding-top: 4rem;
-    
   }
-  // #rss{
-  //   border-right: 2px dotted black;
-  //   padding-left: 0px; 
-  // }
-  // #rlabs{
-  //   border-right: 2px dotted black;
-  //   padding-right: 30px;
-  // }
+
+  .html{
+    background-image: url(../img/html.png);
+  }
+  
+  
   
 
   // gla images
@@ -161,13 +157,17 @@ nav div{
     transition: box-shadow .3s;
     border-radius:10px;
     border: 1px solid #ccc;
-    width: 5.625em;
-    height: 5.625em;
+    width: 9.375em;
+    height:9.375em;
   }
 
   .gla:hover{ 
-    
-    box-shadow: 0 0 11px $textcolor;
+    box-shadow: 0 0 60px $textcolor;
+  }
+
+  #rss{
+    text-align: justify;
+    margin-left: 0%;
   }
   
   // for the skills and abilites
@@ -177,23 +177,23 @@ nav div{
     border: $borderbottom 2px solid;
     background-color: $backtotopbtn;
   }
-//project section
+ //project section
   #projects{
     padding-top: 30px;
   }
+
   .project{
     padding-top: 1.000em;
+    color: black;
   }
-
-  
 
   .section4{
     font-family: 'EB Garamond', serif;
     text-align: center;
     height: 30.500em;
     color: $textcolor;
-    
   }
+
   // sizes of the projects section for the imges and the hovering
   .john{
     width: 100%;
@@ -203,49 +203,49 @@ nav div{
   .john:hover{
     box-shadow: 0 0 11px white;
     background-color: rgba(0, 0, 0, 0.322);
-    padding: 1%;
-    
+    padding: 1%;  
   }
+
   .code{
     width: 100%;
     height: 15.625em;
   }
+
   .code:hover{
     box-shadow: 0 0 11px $textcolor;
     background-color: rgba(0, 0, 0, 0.322);
     padding:1%;
   }
+
   .contact{
     text-align: center;
     height: 2.000em;
   }
+
  // the footes base styles start here
-  footer{
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: 17% 17% 17% 17% 17% 17%;
-    margin-left: 5%;
-    height: 200px;
-    padding-top: 35px;
-  }
+  
   .size{
     width: 100%;
     height: 90px;;
   }
+
   .phone{
     width: 100%;
     height: 110px;
   }
+  
   .social{
     width: 40%;
     height: 90px;
     border-radius: 30%;
     transition: 1s ease-in-out;
   }
+
   .social :hover{
     background-color: $backtotopbtn;
     padding: 2%;
   }
+
   .copyright{
     background-color: $bgcolor;
     height: 30px;
@@ -291,7 +291,6 @@ nav div{
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-
     /* Position the tooltip */
     position: absolute;
     z-index: 1;

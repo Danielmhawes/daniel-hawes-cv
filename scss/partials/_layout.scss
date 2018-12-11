@@ -12,8 +12,6 @@
     display: grid;
     grid-template-columns: 25% 25% 25%;
     grid-gap: 100px;
-
-    
   }
  
   .grid-container-4{
@@ -29,4 +27,14 @@
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 40% 40%;
+    color: #303030;
+  }
+  footer{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 17% 17% 17% 17%;
+    margin-left: 5%;
+    height: 200px;
+    padding-top: 35px;
+    margin-left: 25%;
   }
