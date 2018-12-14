@@ -1,5 +1,5 @@
 
-//styleing the body for the whole website page
+//styling the body for the whole website page
   
   body {
     font-family: 'Indie Flower', cursive;
@@ -142,15 +142,23 @@ a:visited {
     font-family: 'EB Garamond', serif;
     text-align: center;
     padding-top: 4rem;
+    height: 800px;
   }
+  .section3{
+    background: url(../img/office.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section5{
+  margin-left: 45%;
+  text-align: justify;
+}
 
   .html{
     background-image: url(../img/html.png);
   }
   
-  
-  
-
   // gla images
   .gla{
     transition: 0.8s ease-in-out;
@@ -204,6 +212,10 @@ a:visited {
     box-shadow: 0 0 11px white;
     background-color: rgba(0, 0, 0, 0.322);
     padding: 1%;  
+  }
+  .container{
+    padding-top: 2%;
+    height:250px;
   }
 
   .code{

@@ -35,6 +35,15 @@ languages:
 - Created live link
 
 ```
+```
+2018-11-27
+
+- added the basic layout of my the CV
+- A paragraph  about me 
+- added a image of me
+```
+
+
 
 ##Live link
 - https://danielmhawes.github.io/daniel-hawes-cv/index.html

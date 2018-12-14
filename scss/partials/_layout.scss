@@ -12,13 +12,16 @@
     display: grid;
     grid-template-columns: 25% 25% 25%;
     grid-gap: 100px;
+    text-align: justify;
   }
  
   .grid-container-4{
     display: grid;
-    grid-template-columns: 25% 25% ;
-    grid-gap: 30px;
-    margin-left: 35%;
+    grid-template-columns: 25% 25% 25% ;
+    grid-gap: 0px;
+    margin-left: 15%;
+    color: white;
+    text-align: center;;
     
   }
 

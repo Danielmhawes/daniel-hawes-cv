@@ -34,7 +34,10 @@
         height: 65.000em;
         color: white;
     }
-      
+    .section5{
+      margin-left: 40%;
+      text-align: justify;
+    }
     
       
       
@@ -82,13 +85,24 @@
       .section2{
         padding-left: 10%;
         height: 73.000em;
-        color: white;
+        color: $borderbottom;
       }
       .grid-container-3{
         display: grid;
         grid-template-columns: 25% 25% 25%;
         grid-gap: 80px;
+        text-align: left;
       }
+      .grid-container-4{
+        display: grid;
+        grid-template-columns: 25% 25% ;
+        grid-gap: 20px;
+        margin-left: 30%;
+    }
+    .section5{
+      margin-left: 40%;
+      text-align: justify;
+    }
       .copyright{
         background-color: $bgcolor;
         height: 30px;
@@ -131,12 +145,13 @@
       .section2{
         padding-left: 10%;
         height: 82.000em;
-        color: white;
+        color:$borderbottom;
     }
     .grid-container-3{
         display: grid;
         grid-template-columns: 25% 25% 25%;
         grid-gap: 70px;
+        text-align: left;
       }
       .john{
         width: 110%;
@@ -146,6 +161,12 @@
         width: 110%;
         height: 13.625em;
       }
+      .grid-container-4{
+        display: grid;
+        grid-template-columns: 25% 25% ;
+        grid-gap: 20px;
+        margin-left: 27%;
+    }
      
      
       .size{
@@ -155,6 +176,10 @@
       .phone{
         width: 100%;
         height: 110px;
+      }
+      .section5{
+        margin-left: 40%;
+        text-align: justify;
       }
      
       footer{
@@ -217,18 +242,19 @@
     .section2{
         padding-left: 10%;
         height: 95.000em;
-        color: $primcolor;
+        color: $borderbottom;
     }
     .grid-container-3{
         display: grid;
         grid-template-columns: 25% 25% 25%;
         grid-gap: 50px;
+        text-align: left;
     }
     .grid-container-4{
         display: grid;
         grid-template-columns: 25% 25% ;
         grid-gap: 20px;
-        margin-left: 35%;
+        margin-left: 26%;
     }
 
     .icons{
@@ -243,6 +269,10 @@
       .code{
         width: 110%;
         height: 10.625em;
+      }
+      .section5{
+        margin-left: 35%;
+        text-align: justify;
       }
       footer{
         display: grid;
@@ -311,20 +341,21 @@
       }
       .section2{
         padding-left: 10%;
-        height: 113.000em;
-        color: white;
+        height: 119.000em;
+        color: black;
     }
     .grid-container-3{
         display: grid;
         grid-template-columns: auto;
         grid-gap: 50px;
+        text-align: left;
       }
       
       .grid-container-4{
         display: grid;
         grid-template-columns: 32% 32% ;
-        grid-gap: 20px;
-        margin-left: 30%;
+        grid-gap: 10px;
+        margin-left: 20%;
     }
 
     .icons{
@@ -352,6 +383,10 @@
       .code{
         width: 70%;
         height: 15.625em;
+      }
+      .section5{
+        margin-left: 33%;
+        text-align: justify;
       }
       .copyright{
         background-color: $bgcolor;
@@ -419,19 +454,20 @@
       }
       .section2{
         padding-left: 10%;
-        height: 121.000em;
-        color: white;
+        height: 124.000em;
+        color: black;
     }
     .grid-container-3{
         display: grid;
         grid-template-columns: auto;
         grid-gap: 50px;
+        text-align: left;
       }
       .grid-container-4{
         display: grid;
         grid-template-columns: 35% 35% ;
         grid-gap: 30px;
-        margin-left: 20%;
+        margin-left: 11%;
     }
     .section4{
         text-align: center;
@@ -453,6 +489,10 @@
         width: 70%;
         height: 12.625em;
       }
+      .section5{
+        margin-left: 30%;
+        text-align: justify;
+      }
       footer{
         display: grid;
         grid-gap: 50px;
@@ -462,8 +502,8 @@
         padding-top: 35px;
       }
       .social{
-        width: 120%;
-        height: 90px;
+        width: 100%;
+        height: 50px;
         border-radius: 30%;
         transition: 1s ease-in-out;
       }

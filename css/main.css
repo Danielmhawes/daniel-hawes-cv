@@ -9,13 +9,16 @@
 .grid-container-3 {
   display: grid;
   grid-template-columns: 25% 25% 25%;
-  grid-gap: 100px; }
+  grid-gap: 100px;
+  text-align: justify; }
 
 .grid-container-4 {
   display: grid;
-  grid-template-columns: 25% 25%;
-  grid-gap: 30px;
-  margin-left: 35%; }
+  grid-template-columns: 25% 25% 25%;
+  grid-gap: 0px;
+  margin-left: 15%;
+  color: white;
+  text-align: center; }
 
 .grid-container-5 {
   margin-left: 15%;
@@ -92,7 +95,7 @@ nav div {
   text-align: center;
   margin-top: 10%;
   padding: 1.250em;
-  background-color: rgba(255, 255, 255, 0.521); }
+  background-color: rgba(255, 255, 255, 0.849); }
 
 a {
   color: black;
@@ -150,7 +153,18 @@ a:hover {
 .section3 {
   font-family: 'EB Garamond', serif;
   text-align: center;
-  padding-top: 4rem; }
+  padding-top: 4rem;
+  height: 800px; }
+
+.section3 {
+  background: url(../img/office.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.section5 {
+  margin-left: 45%;
+  text-align: justify; }
 
 .html {
   background-image: url(../img/html.png); }
@@ -174,7 +188,7 @@ a:hover {
   height: 200px;
   width: 200px;
   border: black 2px solid;
-  background-color: rgba(255, 255, 255, 0.521); }
+  background-color: rgba(255, 255, 255, 0.849); }
 
 #projects {
   padding-top: 30px; }
@@ -197,6 +211,10 @@ a:hover {
   box-shadow: 0 0 11px white;
   background-color: rgba(0, 0, 0, 0.322);
   padding: 1%; }
+
+.container {
+  padding-top: 2%;
+  height: 250px; }
 
 .code {
   width: 100%;
@@ -226,7 +244,7 @@ a:hover {
   transition: 1s ease-in-out; }
 
 .social :hover {
-  background-color: rgba(255, 255, 255, 0.521);
+  background-color: rgba(255, 255, 255, 0.849);
   padding: 2%; }
 
 .copyright {
@@ -281,7 +299,8 @@ a:hover {
 
 .btnme:hover {
   padding: 4%;
-  transition: 0.8s ease-in-out; }
+  transition: 0.8s ease-in-out;
+  color: white; }
 
 .btn-edu {
   background-color: #C0C0C0;
@@ -356,6 +375,10 @@ a:hover {
     height: 65.000em;
     color: white; }
 
+  .section5 {
+    margin-left: 40%;
+    text-align: justify; }
+
   .grid-container-4 {
     display: grid;
     grid-template-columns: 25% 25%;
@@ -390,12 +413,23 @@ a:hover {
   .section2 {
     padding-left: 10%;
     height: 73.000em;
-    color: white; }
+    color: black; }
 
   .grid-container-3 {
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    grid-gap: 80px; }
+    grid-gap: 80px;
+    text-align: left; }
+
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-gap: 20px;
+    margin-left: 30%; }
+
+  .section5 {
+    margin-left: 40%;
+    text-align: justify; }
 
   .copyright {
     background-color: #C0C0C0;
@@ -432,12 +466,13 @@ a:hover {
   .section2 {
     padding-left: 10%;
     height: 82.000em;
-    color: white; }
+    color: black; }
 
   .grid-container-3 {
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    grid-gap: 70px; }
+    grid-gap: 70px;
+    text-align: left; }
 
   .john {
     width: 110%;
@@ -447,6 +482,12 @@ a:hover {
     width: 110%;
     height: 13.625em; }
 
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-gap: 20px;
+    margin-left: 27%; }
+
   .size {
     width: 75%;
     height: 90px; }
@@ -454,6 +495,10 @@ a:hover {
   .phone {
     width: 100%;
     height: 110px; }
+
+  .section5 {
+    margin-left: 40%;
+    text-align: justify; }
 
   footer {
     display: grid;
@@ -508,18 +553,19 @@ a:hover {
   .section2 {
     padding-left: 10%;
     height: 95.000em;
-    color: white; }
+    color: black; }
 
   .grid-container-3 {
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    grid-gap: 50px; }
+    grid-gap: 50px;
+    text-align: left; }
 
   .grid-container-4 {
     display: grid;
     grid-template-columns: 25% 25%;
     grid-gap: 20px;
-    margin-left: 35%; }
+    margin-left: 26%; }
 
   .icons {
     height: 100px;
@@ -532,6 +578,10 @@ a:hover {
   .code {
     width: 110%;
     height: 10.625em; }
+
+  .section5 {
+    margin-left: 35%;
+    text-align: justify; }
 
   footer {
     display: grid;
@@ -593,19 +643,20 @@ a:hover {
 
   .section2 {
     padding-left: 10%;
-    height: 113.000em;
-    color: white; }
+    height: 119.000em;
+    color: black; }
 
   .grid-container-3 {
     display: grid;
     grid-template-columns: auto;
-    grid-gap: 50px; }
+    grid-gap: 50px;
+    text-align: left; }
 
   .grid-container-4 {
     display: grid;
     grid-template-columns: 32% 32%;
-    grid-gap: 20px;
-    margin-left: 30%; }
+    grid-gap: 10px;
+    margin-left: 20%; }
 
   .icons {
     height: 100px;
@@ -629,6 +680,10 @@ a:hover {
   .code {
     width: 70%;
     height: 15.625em; }
+
+  .section5 {
+    margin-left: 33%;
+    text-align: justify; }
 
   .copyright {
     background-color: #C0C0C0;
@@ -687,19 +742,20 @@ a:hover {
 
   .section2 {
     padding-left: 10%;
-    height: 121.000em;
-    color: white; }
+    height: 124.000em;
+    color: black; }
 
   .grid-container-3 {
     display: grid;
     grid-template-columns: auto;
-    grid-gap: 50px; }
+    grid-gap: 50px;
+    text-align: left; }
 
   .grid-container-4 {
     display: grid;
     grid-template-columns: 35% 35%;
     grid-gap: 30px;
-    margin-left: 20%; }
+    margin-left: 11%; }
 
   .section4 {
     text-align: center;
@@ -720,6 +776,10 @@ a:hover {
     width: 70%;
     height: 12.625em; }
 
+  .section5 {
+    margin-left: 30%;
+    text-align: justify; }
+
   footer {
     display: grid;
     grid-gap: 50px;
@@ -729,8 +789,8 @@ a:hover {
     padding-top: 35px; }
 
   .social {
-    width: 120%;
-    height: 90px;
+    width: 100%;
+    height: 50px;
     border-radius: 30%;
     transition: 1s ease-in-out; }
 
@@ -739,10 +799,5 @@ a:hover {
     height: 30px;
     margin-top: 40%;
     padding-left: 20%; } }
-.section3 {
-  background: url(../img/office.jpeg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */
