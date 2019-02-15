@@ -799,5 +799,8 @@ a:hover {
     height: 30px;
     margin-top: 40%;
     padding-left: 20%; } }
+body {
+  width: auto;
+  overflow-x: hidden; }
 
 /*# sourceMappingURL=main.css.map */
